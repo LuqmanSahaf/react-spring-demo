@@ -32,12 +32,12 @@ class SimpleTable extends React.Component {
                 <TableCell component="th" scope="row">
                   {row.name}
                 </TableCell>
-                <TableCell align="right">{row.weight}</TableCell>
+                <TableCell align="right">{row.weight}{"  kilograms"}</TableCell>
                 <TableCell
                   align="right"
                   style={{ backgroundColor: `rgb(${row.color})` }}
                 />
-                <TableCell align="right">{this.calculateCost(row)}</TableCell>
+                <TableCell align="right">{this.calculateCost(row)}{"  SEK"}</TableCell>
               </TableRow>
             ))}
           </TableBody>

@@ -36,7 +36,7 @@
 }
 
 table,
-th,
+th, tr,
 td {
   border: 1px solid black;
   max-height: 2px;
